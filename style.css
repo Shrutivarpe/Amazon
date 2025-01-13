@@ -21,6 +21,13 @@
     height: 50px;
     width: 150%;
 }
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border:1px solid #cccccc;
+}
+
 .add-first {
     color: #cccccc;
     font-size: 0.85rem;
@@ -187,7 +194,7 @@ li {
     align-items: flex-end;
     display: inline-flex;
     color: white;
-    width: 94.5rem;
+    width:100%;
     text-align: center;
     justify-content: space-evenly;
 }
